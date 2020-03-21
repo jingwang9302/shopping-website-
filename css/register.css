@@ -1,0 +1,26 @@
+.innerContainer {
+    width: 400px;
+    background-color: white;
+    padding: 50px;
+    margin: 0px auto;
+    top: 100px;
+    position: relative;
+}
+
+.outerContainer {
+    height: 1000px;
+    background-color: beige;
+}
+
+.formHeader {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#firstName {
+    width: 49%;
+}
+
+#lastName {
+    width: 49%;
+}

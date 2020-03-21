@@ -8,9 +8,6 @@ $pw2 = $_POST['password2'];
 $fn = $_POST['firstname'];
 $ln = $_POST['lastname'];
 
-
-//判斷帳號密碼是否為空值
-//確認密碼輸入的正確性
 if ($em != null && $pw != null && $pw2 != null && $pw == $pw2 && $fn != null && $ln != null) {
         $sql = $conn->prepare("SELECT FirstName, LastName, Email, Password FROM user_list WHERE Email = '$em'");
         $sql->execute(array($em, $pw));
@@ -20,7 +17,6 @@ if ($em != null && $pw != null && $pw2 != null && $pw == $pw2 && $fn != null && 
                 echo 'user already exist!';
                 echo '<meta http-equiv=REFRESH CONTENT=5;url=register.html>';
         } else {
-                //新增資料進資料庫語法
                 $sql1 = "insert into user_list (FirstName, LastName, Email, Password) values ('$fn', '$ln', '$em','$pw')";
                 $stmt = $conn->prepare($sql1);
                 $stmt->execute();

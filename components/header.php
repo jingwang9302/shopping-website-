@@ -30,7 +30,7 @@
                 </a>
             </div>
             <div class="user-access">
-                <a href="./db/register.html">Register</a>
+                <a href="./register.php">Register</a>
                 <a href="./admin.php" class="in">Admin</a>
             </div>
             <nav class="main-menu mobile-menu">
