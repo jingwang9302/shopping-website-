@@ -16,10 +16,10 @@ try {
     while($row = $stmt -> fetch(PDO::FETCH_ASSOC)){
         echo '<b>First name: </b>'.$row['FirstName'].'&nbsp'.'&nbsp'.'&nbsp';
         echo '<b>Last name: </b>'.$row['LastName'].'&nbsp'.'&nbsp'.'&nbsp';
-        echo ''<br>;
+        echo '<br>';
     }
     ?>
-    <a href="../index.html">Go back</a>
+    <a href="../index.php">Go back</a>
     <?php
 }
 catch(PDOException $e) {

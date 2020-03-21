@@ -30,26 +30,16 @@
                 </a>
             </div>
             <div class="user-access">
-                <a href="#">Register</a>
+                <a href="./db/register.html">Register</a>
                 <a href="./admin.php" class="in">Admin</a>
             </div>
             <nav class="main-menu mobile-menu">
                 <ul>
-                    <li><a <?php if ($title == "Home") {
-                                echo 'class="active"';
-                            } ?> href="./index.php">Home</a></li>
-                    <li><a <?php if ($title == "About") {
-                                echo 'class="active"';
-                            } ?> href="./about.php">About</a></li>
-                    <li><a <?php if ($title == "Product") {
-                                echo 'class="active"';
-                            } ?> href="./product-page.php">Shop</a></li>
-                    <li><a <?php if ($title == "News") {
-                                echo 'class="active"';
-                            } ?> href="./news.php">News</a></li>
-                    <li><a <?php if ($title == "Contact") {
-                                echo 'class="active"';
-                            } ?> href="./contact.php">Contacts</a></li>
+                    <li><a <?php if ($title == "Home") { echo 'class="active"';}?> href="./index.php">Home</a></li>
+                    <li><a <?php if ($title == "About") { echo 'class="active"';}?> href="./about.php">About</a></li>
+                    <li><a <?php if ($title == "Product") { echo 'class="active"';}?> href="./product-page.php">Shop</a></li>
+                    <li><a <?php if ($title == "News") { echo 'class="active"';}?> href="./news.php">News</a></li>
+                    <li><a <?php if ($title == "Contact") { echo 'class="active"';}?> href="./contact.php">Contacts</a></li>
                 </ul>
             </nav>
         </div>
