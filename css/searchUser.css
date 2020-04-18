@@ -1,0 +1,29 @@
+.innerContainer {
+    width: 60%;
+    background-color: white;
+    padding: 50px;
+    margin: 0px auto;
+    top: 80px;
+    position: relative;
+}
+
+.searchForm {
+    justify-content: center;
+}
+
+.form-control {
+    display: inline-block;
+    width: 60%;
+}
+
+.radioContainer {
+    margin: 20px auto;
+}
+
+label {
+    padding-right: 30px;
+}
+
+.form_title {
+    margin-bottom: 20px;
+}
