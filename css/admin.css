@@ -2,6 +2,7 @@
     width: 400px;
     background-color: white;
     padding: 50px;
+    padding-bottom: 20px;
     margin: 0px auto;
     top: 100px;
     position: relative;
@@ -15,4 +16,15 @@
 .formHeader {
     text-align: center;
     padding-bottom: 40px;
+}
+
+.toggleLogin {
+    padding-top: 20px;
+}
+
+.toggleButton {
+    display: inline-block;
+    width: 49%;
+    cursor: pointer;
+    text-align: center;
 }

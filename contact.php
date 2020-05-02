@@ -5,6 +5,11 @@
     <?php
     $title = "Contact";
     include("./components/head.php"); ?>
+    <style>
+        #userListLink:hover {
+            color: blue !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -54,10 +59,15 @@
                             <ul id="contactsList">
                             </ul>
                         </div>
+                        <div class="show-user-list">
+                            <h5><a href="./curl.php" id="userListLink">Show all users</a></h5>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
     </div>
     <!-- Contact Section End -->
 
